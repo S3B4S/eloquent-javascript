@@ -1,6 +1,6 @@
 var output = "";
 
-for (var i = 0; i < 7; i++) {
+for (i = 0; i < 7; i++) {
   output += "#";
 
   if (output.length === i) {

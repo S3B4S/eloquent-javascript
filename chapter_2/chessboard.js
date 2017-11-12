@@ -3,7 +3,7 @@ function chessBoard(size) {
   chessBoard = "";
   startEmpty = true;
 
-  for (var i = 0; i < size; i++) {
+  for (i = 0; i < size; i++) {
     if (startEmpty) {
       generateRow(true, size);
       chessBoard +="\n";
@@ -20,7 +20,7 @@ function chessBoard(size) {
 
 function generateRow(startEmpty, size) {
   if (startEmpty) {
-    for (var j = 0; j < size; j++) {
+    for (j = 0; j < size; j++) {
       if (j % 2 === 0) {
         chessBoard += " ";
       } else {
@@ -28,7 +28,7 @@ function generateRow(startEmpty, size) {
       }
     }
   } else {
-    for (var j = 0; j < size; j++) {
+    for (j = 0; j < size; j++) {
       if (j % 2 === 0) {
         chessBoard += "#";
       } else {
