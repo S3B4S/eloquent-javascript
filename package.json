@@ -1,0 +1,27 @@
+{
+  "name": "eloquent-javascript",
+  "version": "1.0.0",
+  "description": "Solutions to the assignments of the book Eloquent JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S3B4S/eloquent-javascript.git"
+  },
+  "keywords": [
+    "eloquent",
+    "javascript",
+    "solutions"
+  ],
+  "author": "Kevin van der Werff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S3B4S/eloquent-javascript/issues"
+  },
+  "homepage": "https://github.com/S3B4S/eloquent-javascript#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
